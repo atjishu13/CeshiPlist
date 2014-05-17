@@ -8,7 +8,7 @@
 
 #import "NSString+MD5Addition.h"
 #import <CommonCrypto/CommonDigest.h>
-
+//闫兴元修改
 @implementation NSString(MD5Addition)
 
 - (NSString *) stringFromMD5{
