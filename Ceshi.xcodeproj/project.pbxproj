@@ -21,6 +21,8 @@
 		3652FE1C188CE7C300361C6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3652FDFE188CE7C300361C6E /* UIKit.framework */; };
 		3652FE24188CE7C300361C6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3652FE22188CE7C300361C6E /* InfoPlist.strings */; };
 		3652FE26188CE7C300361C6E /* CeshiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3652FE25188CE7C300361C6E /* CeshiTests.m */; };
+		3652FE34188CE7FF00361C6E /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3652FE31188CE7FF00361C6E /* NSString+MD5Addition.m */; };
+		3652FE35188CE7FF00361C6E /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3652FE33188CE7FF00361C6E /* UIDevice+IdentifierAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		3652FE21188CE7C300361C6E /* CeshiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CeshiTests-Info.plist"; sourceTree = "<group>"; };
 		3652FE23188CE7C300361C6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3652FE25188CE7C300361C6E /* CeshiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeshiTests.m; sourceTree = "<group>"; };
+		3652FE30188CE7FF00361C6E /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		3652FE31188CE7FF00361C6E /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		3652FE32188CE7FF00361C6E /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
+		3652FE33188CE7FF00361C6E /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		3652FDEE188CE7C300361C6E = {
 			isa = PBXGroup;
 			children = (
+				3652FE2F188CE7FF00361C6E /* Classes */,
 				3652FE00188CE7C300361C6E /* Ceshi */,
 				3652FE1F188CE7C300361C6E /* CeshiTests */,
 				3652FDF9188CE7C300361C6E /* Frameworks */,
@@ -150,6 +157,17 @@
 				3652FE22188CE7C300361C6E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3652FE2F188CE7FF00361C6E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3652FE30188CE7FF00361C6E /* NSString+MD5Addition.h */,
+				3652FE31188CE7FF00361C6E /* NSString+MD5Addition.m */,
+				3652FE32188CE7FF00361C6E /* UIDevice+IdentifierAddition.h */,
+				3652FE33188CE7FF00361C6E /* UIDevice+IdentifierAddition.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +270,9 @@
 			files = (
 				3652FE07188CE7C300361C6E /* main.m in Sources */,
 				3652FE11188CE7C300361C6E /* ATViewController.m in Sources */,
+				3652FE34188CE7FF00361C6E /* NSString+MD5Addition.m in Sources */,
 				3652FE0B188CE7C300361C6E /* ATAppDelegate.m in Sources */,
+				3652FE35188CE7FF00361C6E /* UIDevice+IdentifierAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +358,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -371,6 +392,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -382,7 +404,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ceshi/Ceshi-Prefix.pch";
 				INFOPLIST_FILE = "Ceshi/Ceshi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,7 +419,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ceshi/Ceshi-Prefix.pch";
 				INFOPLIST_FILE = "Ceshi/Ceshi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
