@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://atstore.ip165.com/tymy/emsp_tymy.ipa</string>
+					<string>http://117.132.15.234:8099/port/qdemsp.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
