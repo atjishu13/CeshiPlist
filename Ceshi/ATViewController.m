@@ -23,15 +23,19 @@
     label.textAlignment = NSTextAlignmentCenter;
     label.text = [NSString stringWithFormat:@"Unique Device Identifier:\n%@",
                   [[UIDevice currentDevice] uniqueDeviceIdentifier]];
-    
+
     [self.view addSubview:label];
+    
+    NSUUID *udid = [[UIDevice currentDevice] identifierForVendor];
+    NSLog(@"%@",[udid UUIDString]);
+//    6BC98979-F55D-4F99-80A3-6ED5C482EBCF
 //    [label release];
+    
     
     label = [[UILabel alloc] initWithFrame:CGRectMake(10, 210, 300, 100)];
     label.numberOfLines = 0;
     label.textAlignment = NSTextAlignmentCenter;
-    label.text = [NSString stringWithFormat:@"Unique GLOBAL Device Identifier:\n%@",
-                  [[UIDevice currentDevice] uniqueGlobalDeviceIdentifier]];
+    label.text = [NSString stringWithFormat:@"Unique GLOBAL Device Identifier:\n%@",[[UIDevice currentDevice] uniqueGlobalDeviceIdentifier]];
     
     [self.view addSubview:label];
 //    [label release];

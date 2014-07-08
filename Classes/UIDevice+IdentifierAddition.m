@@ -19,7 +19,7 @@
 - (NSString *) macaddress;
 
 @end
-
+ 
 @implementation UIDevice (IdentifierAddition)
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -56,7 +56,7 @@
     
     if ((buf = malloc(len)) == NULL) {
         printf("Could not allocate memory. error!\n");
-        return NULL;
+        return NULL;                                                                                                                                                                                                                     
     }
     
     if (sysctl(mib, 6, buf, &len, NULL, 0) < 0) {
