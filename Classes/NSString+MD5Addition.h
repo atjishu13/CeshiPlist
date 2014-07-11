@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString(MD5Addition)
-//测试修噶
+//测试修
 - (NSString *) stringFromMD5;
 
 @end
