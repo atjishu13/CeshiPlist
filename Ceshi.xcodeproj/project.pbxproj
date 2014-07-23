@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		363DEFEE196BF47600663073 /* emsp_tymy.plist in Resources */ = {isa = PBXBuildFile; fileRef = 363DEFED196BF47600663073 /* emsp_tymy.plist */; };
 		3647EB33197F46010081BB02 /* ioskyeyes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3647EB32197F46010081BB02 /* ioskyeyes.plist */; };
+		3647EB42197F93170081BB02 /* luhua.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3647EB41197F93170081BB02 /* luhua.plist */; };
 		3652FDFB188CE7C300361C6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3652FDFA188CE7C300361C6E /* Foundation.framework */; };
 		3652FDFD188CE7C300361C6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3652FDFC188CE7C300361C6E /* CoreGraphics.framework */; };
 		3652FDFF188CE7C300361C6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3652FDFE188CE7C300361C6E /* UIKit.framework */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		363DEFED196BF47600663073 /* emsp_tymy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emsp_tymy.plist; sourceTree = "<group>"; };
 		3647EB32197F46010081BB02 /* ioskyeyes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ioskyeyes.plist; sourceTree = "<group>"; };
+		3647EB41197F93170081BB02 /* luhua.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = luhua.plist; sourceTree = "<group>"; };
 		3652FDF7188CE7C300361C6E /* Ceshi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ceshi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3652FDFA188CE7C300361C6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3652FDFC188CE7C300361C6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -137,6 +139,7 @@
 		3652FE01188CE7C300361C6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3647EB41197F93170081BB02 /* luhua.plist */,
 				3647EB32197F46010081BB02 /* ioskyeyes.plist */,
 				363DEFED196BF47600663073 /* emsp_tymy.plist */,
 				3652FE02188CE7C300361C6E /* Ceshi-Info.plist */,
@@ -253,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3647EB42197F93170081BB02 /* luhua.plist in Resources */,
 				363DEFEE196BF47600663073 /* emsp_tymy.plist in Resources */,
 				3647EB33197F46010081BB02 /* ioskyeyes.plist in Resources */,
 				3652FE13188CE7C300361C6E /* Images.xcassets in Resources */,
