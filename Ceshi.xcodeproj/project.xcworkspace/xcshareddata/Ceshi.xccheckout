@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3AFB8F1A-51AC-4A64-BD56-506D1266B24E</string>
+	<string>3A592A23-C2DE-44F4-BAB6-D7A2BD7B86A1</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Ceshi</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>160B4269-F39A-4FBA-918C-8EF9EECC1A45</key>
-		<string>https://github.com/johnchen/Ceshi.git</string>
+		<key>A3E002FD-447C-4F3C-BECA-BC0A4504C206</key>
+		<string>https://github.com/atjishu13/CeshiPlist.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Ceshi.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>160B4269-F39A-4FBA-918C-8EF9EECC1A45</key>
+		<key>A3E002FD-447C-4F3C-BECA-BC0A4504C206</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/johnchen/Ceshi.git</string>
+	<string>https://github.com/atjishu13/CeshiPlist.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>160B4269-F39A-4FBA-918C-8EF9EECC1A45</string>
+	<string>A3E002FD-447C-4F3C-BECA-BC0A4504C206</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>160B4269-F39A-4FBA-918C-8EF9EECC1A45</string>
+			<string>A3E002FD-447C-4F3C-BECA-BC0A4504C206</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Ceshi</string>
+			<string>CeshiPlist</string>
 		</dict>
 	</array>
 </dict>
