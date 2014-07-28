@@ -26,6 +26,7 @@
 		3652FE26188CE7C300361C6E /* CeshiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3652FE25188CE7C300361C6E /* CeshiTests.m */; };
 		3652FE34188CE7FF00361C6E /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3652FE31188CE7FF00361C6E /* NSString+MD5Addition.m */; };
 		3652FE35188CE7FF00361C6E /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3652FE33188CE7FF00361C6E /* UIDevice+IdentifierAddition.m */; };
+		36AAF72A19863825002FEBC7 /* emsp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36AAF72919863825002FEBC7 /* emsp.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		3652FE31188CE7FF00361C6E /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
 		3652FE32188CE7FF00361C6E /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
 		3652FE33188CE7FF00361C6E /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		36AAF72919863825002FEBC7 /* emsp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emsp.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		3652FE01188CE7C300361C6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				36AAF72919863825002FEBC7 /* emsp.plist */,
 				3647EB41197F93170081BB02 /* luhua.plist */,
 				3647EB32197F46010081BB02 /* ioskyeyes.plist */,
 				363DEFED196BF47600663073 /* emsp_tymy.plist */,
@@ -260,6 +263,7 @@
 				363DEFEE196BF47600663073 /* emsp_tymy.plist in Resources */,
 				3647EB33197F46010081BB02 /* ioskyeyes.plist in Resources */,
 				3652FE13188CE7C300361C6E /* Images.xcassets in Resources */,
+				36AAF72A19863825002FEBC7 /* emsp.plist in Resources */,
 				3652FE05188CE7C300361C6E /* InfoPlist.strings in Resources */,
 				3652FE0E188CE7C300361C6E /* Main.storyboard in Resources */,
 			);
