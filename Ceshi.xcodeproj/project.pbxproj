@@ -26,6 +26,7 @@
 		3652FE26188CE7C300361C6E /* CeshiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3652FE25188CE7C300361C6E /* CeshiTests.m */; };
 		3652FE34188CE7FF00361C6E /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3652FE31188CE7FF00361C6E /* NSString+MD5Addition.m */; };
 		3652FE35188CE7FF00361C6E /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3652FE33188CE7FF00361C6E /* UIDevice+IdentifierAddition.m */; };
+		365920B019B819960084A148 /* ioskyeyesatcs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 365920AF19B819960084A148 /* ioskyeyesatcs.plist */; };
 		366C41201990767300C2741F /* emspwfty.plist in Resources */ = {isa = PBXBuildFile; fileRef = 366C411F1990767300C2741F /* emspwfty.plist */; };
 		368110C2199E080900E70645 /* jinhetao.plist in Resources */ = {isa = PBXBuildFile; fileRef = 368110C1199E080900E70645 /* jinhetao.plist */; };
 		368A9F1319A183F100D57BAB /* tytalk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 368A9F1219A183F100D57BAB /* tytalk.plist */; };
@@ -69,6 +70,7 @@
 		3652FE31188CE7FF00361C6E /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
 		3652FE32188CE7FF00361C6E /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
 		3652FE33188CE7FF00361C6E /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		365920AF19B819960084A148 /* ioskyeyesatcs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ioskyeyesatcs.plist; sourceTree = "<group>"; };
 		366C411F1990767300C2741F /* emspwfty.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emspwfty.plist; sourceTree = "<group>"; };
 		368110C1199E080900E70645 /* jinhetao.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jinhetao.plist; sourceTree = "<group>"; };
 		368A9F1219A183F100D57BAB /* tytalk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tytalk.plist; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		3652FE01188CE7C300361C6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				365920AF19B819960084A148 /* ioskyeyesatcs.plist */,
 				368A9F1219A183F100D57BAB /* tytalk.plist */,
 				368110C1199E080900E70645 /* jinhetao.plist */,
 				366C411F1990767300C2741F /* emspwfty.plist */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3647EB42197F93170081BB02 /* luhua.plist in Resources */,
+				365920B019B819960084A148 /* ioskyeyesatcs.plist in Resources */,
 				363DEFEE196BF47600663073 /* emsp_tymy.plist in Resources */,
 				3647EB33197F46010081BB02 /* ioskyeyes.plist in Resources */,
 				368A9F1319A183F100D57BAB /* tytalk.plist in Resources */,
