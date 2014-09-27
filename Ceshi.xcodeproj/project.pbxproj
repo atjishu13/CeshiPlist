@@ -32,6 +32,7 @@
 		368A9F1319A183F100D57BAB /* tytalk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 368A9F1219A183F100D57BAB /* tytalk.plist */; };
 		36AAF72A19863825002FEBC7 /* emsp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36AAF72919863825002FEBC7 /* emsp.plist */; };
 		36BD4A0719C7C04D006B4DE5 /* zgt.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36BD4A0619C7C04D006B4DE5 /* zgt.plist */; };
+		36F2400C19D65FDF002422E6 /* LiFengMove.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36F2400B19D65FDF002422E6 /* LiFengMove.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		368A9F1219A183F100D57BAB /* tytalk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tytalk.plist; sourceTree = "<group>"; };
 		36AAF72919863825002FEBC7 /* emsp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emsp.plist; sourceTree = "<group>"; };
 		36BD4A0619C7C04D006B4DE5 /* zgt.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = zgt.plist; sourceTree = "<group>"; };
+		36F2400B19D65FDF002422E6 /* LiFengMove.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LiFengMove.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				368110C1199E080900E70645 /* jinhetao.plist */,
 				366C411F1990767300C2741F /* emspwfty.plist */,
 				36AAF72919863825002FEBC7 /* emsp.plist */,
+				36F2400B19D65FDF002422E6 /* LiFengMove.plist */,
 				3647EB41197F93170081BB02 /* luhua.plist */,
 				3647EB32197F46010081BB02 /* ioskyeyes.plist */,
 				363DEFED196BF47600663073 /* emsp_tymy.plist */,
@@ -280,6 +283,7 @@
 				3647EB33197F46010081BB02 /* ioskyeyes.plist in Resources */,
 				36BD4A0719C7C04D006B4DE5 /* zgt.plist in Resources */,
 				368A9F1319A183F100D57BAB /* tytalk.plist in Resources */,
+				36F2400C19D65FDF002422E6 /* LiFengMove.plist in Resources */,
 				3652FE13188CE7C300361C6E /* Images.xcassets in Resources */,
 				368110C2199E080900E70645 /* jinhetao.plist in Resources */,
 				36AAF72A19863825002FEBC7 /* emsp.plist in Resources */,
