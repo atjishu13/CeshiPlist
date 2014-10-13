@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		363B9E6519EBA562008FB5C1 /* Logitech.plist in Resources */ = {isa = PBXBuildFile; fileRef = 363B9E6419EBA562008FB5C1 /* Logitech.plist */; };
 		363DEFEE196BF47600663073 /* emsp_tymy.plist in Resources */ = {isa = PBXBuildFile; fileRef = 363DEFED196BF47600663073 /* emsp_tymy.plist */; };
 		3647EB33197F46010081BB02 /* ioskyeyes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3647EB32197F46010081BB02 /* ioskyeyes.plist */; };
 		3647EB42197F93170081BB02 /* luhua.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3647EB41197F93170081BB02 /* luhua.plist */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		363B9E6419EBA562008FB5C1 /* Logitech.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Logitech.plist; sourceTree = "<group>"; };
 		363DEFED196BF47600663073 /* emsp_tymy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emsp_tymy.plist; sourceTree = "<group>"; };
 		3647EB32197F46010081BB02 /* ioskyeyes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ioskyeyes.plist; sourceTree = "<group>"; };
 		3647EB41197F93170081BB02 /* luhua.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = luhua.plist; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		3652FE01188CE7C300361C6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				363B9E6419EBA562008FB5C1 /* Logitech.plist */,
 				36BD4A0619C7C04D006B4DE5 /* zgt.plist */,
 				365920AF19B819960084A148 /* ioskyeyesatcs.plist */,
 				368A9F1219A183F100D57BAB /* tytalk.plist */,
@@ -290,6 +293,7 @@
 				3652FE13188CE7C300361C6E /* Images.xcassets in Resources */,
 				368110C2199E080900E70645 /* jinhetao.plist in Resources */,
 				36979EE019E53F7B00693E9F /* emsp_tymy1.plist in Resources */,
+				363B9E6519EBA562008FB5C1 /* Logitech.plist in Resources */,
 				36AAF72A19863825002FEBC7 /* emsp.plist in Resources */,
 				3652FE05188CE7C300361C6E /* InfoPlist.strings in Resources */,
 				3652FE0E188CE7C300361C6E /* Main.storyboard in Resources */,
