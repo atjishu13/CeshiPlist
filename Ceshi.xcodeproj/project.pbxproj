@@ -37,6 +37,7 @@
 		36979EE019E53F7B00693E9F /* emsp_tymy1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36979EDF19E53F7B00693E9F /* emsp_tymy1.plist */; };
 		36AAF72A19863825002FEBC7 /* emsp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36AAF72919863825002FEBC7 /* emsp.plist */; };
 		36BD4A0719C7C04D006B4DE5 /* zgt.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36BD4A0619C7C04D006B4DE5 /* zgt.plist */; };
+		36CAA9D81A64B7110083AC71 /* wwg.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36CAA9D71A64B7110083AC71 /* wwg.plist */; };
 		36F2400C19D65FDF002422E6 /* LiFengMove.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36F2400B19D65FDF002422E6 /* LiFengMove.plist */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +89,7 @@
 		36979EDF19E53F7B00693E9F /* emsp_tymy1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emsp_tymy1.plist; sourceTree = "<group>"; };
 		36AAF72919863825002FEBC7 /* emsp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emsp.plist; sourceTree = "<group>"; };
 		36BD4A0619C7C04D006B4DE5 /* zgt.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = zgt.plist; sourceTree = "<group>"; };
+		36CAA9D71A64B7110083AC71 /* wwg.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wwg.plist; sourceTree = "<group>"; };
 		36F2400B19D65FDF002422E6 /* LiFengMove.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LiFengMove.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				36334BBC1A5CC3770054838E /* emsp_hjy.plist */,
+				36CAA9D71A64B7110083AC71 /* wwg.plist */,
 				3691BB501A4A69B700D73788 /* LogitechCeShi.plist */,
 				3652C5991A315072006B277D /* qdemsp.plist */,
 				363B9E6419EBA562008FB5C1 /* Logitech.plist */,
@@ -307,6 +310,7 @@
 				363B9E6519EBA562008FB5C1 /* Logitech.plist in Resources */,
 				36AAF72A19863825002FEBC7 /* emsp.plist in Resources */,
 				3652FE05188CE7C300361C6E /* InfoPlist.strings in Resources */,
+				36CAA9D81A64B7110083AC71 /* wwg.plist in Resources */,
 				36334BBD1A5CC3770054838E /* emsp_hjy.plist in Resources */,
 				3652FE0E188CE7C300361C6E /* Main.storyboard in Resources */,
 				366C41201990767300C2741F /* emspwfty.plist in Resources */,
