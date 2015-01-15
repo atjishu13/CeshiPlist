@@ -36,6 +36,7 @@
 		3691BB511A4A69B700D73788 /* LogitechCeShi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3691BB501A4A69B700D73788 /* LogitechCeShi.plist */; };
 		36979EE019E53F7B00693E9F /* emsp_tymy1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36979EDF19E53F7B00693E9F /* emsp_tymy1.plist */; };
 		36AAF72A19863825002FEBC7 /* emsp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36AAF72919863825002FEBC7 /* emsp.plist */; };
+		36BC31371A67B50C002ECE36 /* qdyd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36BC31361A67B50C002ECE36 /* qdyd.plist */; };
 		36BD4A0719C7C04D006B4DE5 /* zgt.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36BD4A0619C7C04D006B4DE5 /* zgt.plist */; };
 		36CAA9D81A64B7110083AC71 /* wwg.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36CAA9D71A64B7110083AC71 /* wwg.plist */; };
 		36F2400C19D65FDF002422E6 /* LiFengMove.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36F2400B19D65FDF002422E6 /* LiFengMove.plist */; };
@@ -88,6 +89,7 @@
 		3691BB501A4A69B700D73788 /* LogitechCeShi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LogitechCeShi.plist; sourceTree = "<group>"; };
 		36979EDF19E53F7B00693E9F /* emsp_tymy1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emsp_tymy1.plist; sourceTree = "<group>"; };
 		36AAF72919863825002FEBC7 /* emsp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emsp.plist; sourceTree = "<group>"; };
+		36BC31361A67B50C002ECE36 /* qdyd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = qdyd.plist; sourceTree = "<group>"; };
 		36BD4A0619C7C04D006B4DE5 /* zgt.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = zgt.plist; sourceTree = "<group>"; };
 		36CAA9D71A64B7110083AC71 /* wwg.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wwg.plist; sourceTree = "<group>"; };
 		36F2400B19D65FDF002422E6 /* LiFengMove.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LiFengMove.plist; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 		3652FE01188CE7C300361C6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				36BC31361A67B50C002ECE36 /* qdyd.plist */,
 				36334BBC1A5CC3770054838E /* emsp_hjy.plist */,
 				36CAA9D71A64B7110083AC71 /* wwg.plist */,
 				3691BB501A4A69B700D73788 /* LogitechCeShi.plist */,
@@ -305,6 +308,7 @@
 				36F2400C19D65FDF002422E6 /* LiFengMove.plist in Resources */,
 				3652FE13188CE7C300361C6E /* Images.xcassets in Resources */,
 				368110C2199E080900E70645 /* jinhetao.plist in Resources */,
+				36BC31371A67B50C002ECE36 /* qdyd.plist in Resources */,
 				36979EE019E53F7B00693E9F /* emsp_tymy1.plist in Resources */,
 				3691BB511A4A69B700D73788 /* LogitechCeShi.plist in Resources */,
 				363B9E6519EBA562008FB5C1 /* Logitech.plist in Resources */,
