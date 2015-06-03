@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://218.98.32.99:10000/port/OfficeAssistant.ipa</string>
+					<string>http://mecs.ip165.com/port/OfficeAssistant.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -23,9 +23,9 @@
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>企管通</string>
+				<string>ME平台</string>
 				<key>title</key>
-				<string>企管通</string>
+				<string>ME平台</string>
 			</dict>
 		</dict>
 	</array>
